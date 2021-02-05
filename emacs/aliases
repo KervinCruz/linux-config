@@ -1,0 +1,3 @@
+alias nil  $*
+alias apache-quit sudo pkill mysqld && sudo rc-service httpd stop
+alias apache sudo rc-service httpd start && sudo mysqld --user=root &> /dev/null &
