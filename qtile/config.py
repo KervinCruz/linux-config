@@ -7,7 +7,7 @@ from libqtile.config import Click, Drag, Group, Key, Screen, Match
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 
-mod = "mod4"
+mod = "mod4
 terminal = guess_terminal()
 color = "#dd6633"
 color_light = "#ff8855"
